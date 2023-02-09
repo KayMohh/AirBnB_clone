@@ -15,13 +15,13 @@ The console is the first segment of the AirBnB project at Holberton School that 
 
 ## Table of Content
 
-* [link]https://github.com/KayMohh/AirBnB_clone_v4#"Environment"
+* https://github.com/KayMohh/AirBnB_clone_v4# "Environment"
 
-* https://github.com/KayMohh/AirBnB_clone_v4#installation
+* (https://github.com/KayMohh/AirBnB_clone_v4) [#installation]
 
 * https://github.com/KayMohh/AirBnB_clone_v4#file-Descriptions
 
-* https://github.com/KayMohh/AirBnB_clone_v4#usage
+* [#usage](https://github.com/KayMohh/AirBnB_clone_v4) 
 
 * https://github.com/KayMohh/AirBnB_clone_v4#examples-of-use
 
