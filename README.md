@@ -2,31 +2,33 @@
 The console is the first segment of the AirBnB project at Holberton School that will collectively cover fundamental concepts of higher level programming. The goal of AirBnB project is to eventually deploy our server a simple copy of the AirBnB Website(HBnB). A command interpreter is created in this segment to manage objects for the AirBnB(HBnB) website.
 
 Functionalities of this command interpreter:
-*Create a new object (ex: a new User or a new Place)
 
-*Retrieve an object from a file, a database etc...
+* Create a new object (ex: a new User or a new Place)
 
-*Do operations on objects (count, compute stats, etc...)
+* Retrieve an object from a file, a database etc...
 
-*Update attributes of an object
+* Do operations on objects (count, compute stats, etc...)
 
-*Destroy an object
+* Update attributes of an object
 
-#Table of Content
-*Environment
+* Destroy an object
 
-*Installation
+## Table of Content
 
-*File Descriptions
+* Environment
 
-*Usage
+* Installation
 
-*Examples of use
+* File Descriptions
 
-*Bugs
+* Usage
 
-*Authors
+* Examples of use
 
-*License
+* Bugs
 
-#Environment
+* Authors
+
+* License
+
+# Environment
