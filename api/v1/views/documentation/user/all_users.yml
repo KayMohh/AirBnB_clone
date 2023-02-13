@@ -1,7 +1,8 @@
-gets all amenities of a place
+retrieves a list of all users.
 ---
 tags:
-  - Amenities
+  - Users
+
 responses:
   200:
     description: request executed successfully
@@ -20,6 +21,15 @@ responses:
           id:
             type: string
             description: The uuid of the instance
-          name:
+          email:
              type: string
-             description: amenity name
+             description: user's email
+          password:
+             type: string
+             description: user's password
+          first_name:
+             type: string
+             description: user's first name
+          last_name:
+             type: string
+             description: user's last name

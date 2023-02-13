@@ -1,29 +1,29 @@
-    Posts a new place.
+    Posts a new review
     ---
     tags:
-      - Places
+      - Reviews
     parameters:
-      - name: city_id
+      - name: place_id
         in: path
         type: string
         required: true
-        description: The id of the City to link to
-      - name: user_id and name
+        description: The id of the Place to link to
+      - name: user_id and text
         in: body
         required: true
         requires:
           - user_id
-          - name
+          - text
         properties:
           user_id:
             type: string
-          name:
+          text:
             type: string
 
     responses:
       404:
         description: resource not found!
       400:
-        description: missing user_id, name or invalid JSON
+        description: missing user_id, text, or Invalid JSON
       201:
         description: Successful request

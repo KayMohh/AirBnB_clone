@@ -1,10 +1,17 @@
-gets all amenities of a place
+Gets the list of all amenities of a place
 ---
 tags:
-  - Amenities
+  - Place_Amenities
+parameters:
+  - name: place_id
+    in: path
+    type: string
+    required: true
+    description: the unique id of the place
+
 responses:
   200:
-    description: request executed successfully
+    description: Successful request
     schema:
       type: array
       items:
@@ -19,7 +26,9 @@ responses:
              description: time of last update of the instance
           id:
             type: string
-            description: The uuid of the instance
+            description: The uuid of the state instance
           name:
              type: string
-             description: amenity name
+             description: name of the amenity
+  404:
+    description: Place not found
